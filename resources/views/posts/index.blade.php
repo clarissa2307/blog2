@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">
                     Artículos
-                    <a href="{{ route('posts.create') }}" class="btn btn-sm btn-primary float-right">Crear</a>
+                    <a href="{{ route('posts.create') }}" class="btn btn-sm btn-success float-right">Crear</a>
                 </div>
 
                 <div class="card-body">
@@ -32,7 +32,7 @@
                                 <td>{{ $post->title }}</td>
                                 <td>
                                     <a href="{{ route('posts.edit', $post) }}"
-                                       class="btn btn-primary btn-sm">
+                                       class="btn btn-dark btn-sm">
                                         Editar
                                     </a>
                                 </td>
