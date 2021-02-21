@@ -83,7 +83,7 @@ class PostController extends Controller
             $post->save();
         }
 
-        return back()->with('status', 'Actualizado correctamente');
+        return back()->with('status', 'Actualizado con exito');
     }
 
     /**
